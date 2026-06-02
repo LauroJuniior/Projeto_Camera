@@ -2,7 +2,7 @@ import cv2
 import time
 
 #Iniciando comunicação com a camera
-url = "rtsp://CameraRua:122328aA@192.168.15.114:554/live/ch0"
+url = "" #Não adicionei por conta de segurança.
 cap = cv2.VideoCapture(url)
 
 # Definições de Gravação (6 FPS para economizar HD)
